@@ -6,22 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body class="center">
-    <header id="header">
+    <div id="header">            
             <a class="logo" target="_blank" alt="logo"></a>
-                <ul id="menu">
-                    <li><a href="#" target="_blank" >חדשות ומדיה</a></li>
-                    <li><a href="#" target="_blank">קריירה</a></li>
-                    <li><a href="#" target="_blank">התחנות שלנו</a></li>
-                    <li><a href="#" target="_blank">קשרי משקיעים</a></li>
-                    <li><a href="#" target="_blank">אחריות תאגידית</a></li>
-                    <li><a href="#" target="_blank">חטיבות</a></li>
-                    <li><a href="#" target="_blank">אודות</a></li>
-                </ul>            
-    </header>
+            <ul id="menu">               
+                <li><img src="./images/menu_home_blue1.png"></li>               
+                <li class="sep"></li>
+                <li><a href="#" target="_blank" ><span>חדשות ומדיה</span></a></li>
+                <li class="sep"></li>
+                <li><a href="#" target="_blank"><span>קריירה<span></a></li>
+                <li class="sep"></li>
+                <li><a href="#" target="_blank"><span>התחנות שלנו</span></a></li>
+                <li class="sep"></li>
+                <li><a href="#" target="_blank"><span>קשרי משקיעים</span></a></li>
+                <li class="sep"></li>
+                <li><a href="#" target="_blank"><span>אחריות תאגידית</span></a></li>
+                <li class="sep"></li>
+                <li><a href="#" target="_blank"><span>חטיבות</span></a></li>
+                <li class="sep"></li>
+                <li><a href="#" target="_blank"><span>אודות</span></a></li>
+            </ul>                
+        <div id="search">
+            <ul>      
+                <li><span>English</span></li>
+                <li><input type="search" name="" id="" placeholder="רשום מילת חיפוש"></li>
+                <li><img src="./images/search_button.png" alt="search"></li>
+            </ul>                   
+        </div>                
+    </div> 
     
-    <div id="paz-small-cube" class="paz-container center">
+    <div class="paz-container center">
             <div class="row clearfix">
                     <div class="paz-big-cube bg-img img1">
                             <div class="text-rectangle">
@@ -71,7 +87,8 @@
                     </div>
                     <div class="paz-small-cube">
                             <h3>yellow click&amp;pick;</h3>
-                            <img src="images/banner_atar.jpg" id="img5" alt="פרסומת">
+                            <!-- <img src="images/banner_atar.jpg" id="img5" alt="פרסומת"> -->
+                            <img id="changeImg" src="./images/250X110668568400.jpg" onclick="changeImage()">
                             <nav class="text-left">                                      
                                     <a href="#" target="_blank" class="read-more yellow-pic"><span>לפרטים נוספים</span></a>
                             </nav>
@@ -85,9 +102,23 @@
                                 <a href="#" target="_blank" class="read-more yellow-pic"><span>דרום</span></a>
                             </nav>
                     </div>
-            </div>
-                         
+            </div>                         
+      </div>    
+      <div class="footer">
+            <ul>
+                    <li><img src="./images/fb_icon.png"></li> 
+                    <li><a href="#" target="_blank">עמוד הבית</a></li>
+                    <li><a href="#" target="_blank">מחירונים </a></li>
+                    <li><a href="#" target="_blank">קריירה</a></li>
+                    <li><a href="#" target="_blank">תנאי שימוש</a></li>
+                    <li><a href="#" target="_blank">נגישות</a></li>
+                    <li><a href="#" target="_blank">מפת האתר</a></li>
+                    <li><a href="contact.html">צור קשר</a></li>
+                    <li><a href="#" target="_blank">שטחי מסחר</a></li>
+                    <li><a href="#" target="_blank"><span style="color:red">הסדר פשרה בתובענה היצוגית בעניין הסדר פזומט</span></a></li>
+                </ul>
+        
+        
       </div>
-    
 </body>
 </html>
